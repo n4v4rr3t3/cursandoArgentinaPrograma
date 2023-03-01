@@ -73,6 +73,8 @@ document.getElementById("habilidades").addEventListener(
         <h1>Creatividad</h1>
         Dos palabras que me definen son creatividad e innovación, tengo dias en los que me convierto en una maquina de generar ideas innovadoras y valiosas.
         <br>
+        <br>
+        <br>
         `
     }
 );
