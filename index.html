@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <!--  presentacion -->
+        <h1>Francis Hamilton</h1>
+        <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="foto_perfil" id="fotoPerfil" width="15%" height="15%">
+        <!-- elegir información personal, experiencia o habilidades-->
+        <div class="col" id="elegir">
+            <button type="button" class="btn btn-lg btn-success" id="info">información personal</button>
+            <button type="button" class="btn btn-lg btn-success" id="experiencia">experiencia</button>
+            <button type="button" class="btn btn-lg btn-success" id="habilidades">habilidades</button>
+        </div>
+        <!-- elemento cambiante que muestra la data -->
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col"id="muestraData"> </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

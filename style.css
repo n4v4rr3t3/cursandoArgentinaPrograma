@@ -1,0 +1,30 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 99%;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/474x/83/13/e5/8313e5ae4e7994a141eceebd08e47edf.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+#fotoPerfil {
+    border-radius: 45%;
+}
+
+#elegir {
+    margin-top: 3%;
+}
+
+#muestraData {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 3%;
+    border-radius: 10%;
+    border: solid 1px;
+}
