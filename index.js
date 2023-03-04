@@ -26,6 +26,8 @@ document.getElementById("info").addEventListener(
         <br>
         <br>
         `
+        document.body.style.backgroundImage = "url('https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-323.jpg')";
+        document.getElementById("nombre").style.color = "black"
     }
 );
 document.getElementById("experiencia").addEventListener(
@@ -53,6 +55,9 @@ document.getElementById("experiencia").addEventListener(
         <br>
         <br>
         `
+        /*document.body.style.background = "#f3f3f3 url('https://img.freepik.com/premium-photo/wood-table-city-center-modern-office-background_31965-1375.jpg') no-repeat right top";*/
+        document.body.style.backgroundImage = "url('https://img.freepik.com/premium-photo/wood-table-city-center-modern-office-background_31965-1375.jpg')";
+        document.getElementById("nombre").color = black
     }
 );
 document.getElementById("habilidades").addEventListener(
@@ -76,5 +81,7 @@ document.getElementById("habilidades").addEventListener(
         <br>
         <br>
         `
+        document.body.style.backgroundImage = "url('https://i.pinimg.com/474x/83/13/e5/8313e5ae4e7994a141eceebd08e47edf.jpg')";
+        document.getElementById("nombre").color = black
     }
 );
