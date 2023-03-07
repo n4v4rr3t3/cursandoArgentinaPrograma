@@ -26,7 +26,7 @@ document.getElementById("info").addEventListener(
         <br>
         <br>
         `
-        document.body.style.backgroundImage = "url('https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-323.jpg')";
+        document.body.style.backgroundImage = "url('https://static.vecteezy.com/system/resources/previews/002/375/040/original/modern-white-background-free-vector.jpg')";
         document.getElementById("nombre").style.color = "black"
     }
 );
