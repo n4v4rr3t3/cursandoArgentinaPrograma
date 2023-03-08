@@ -3,6 +3,7 @@
 html {
     width: 100%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -127,6 +128,11 @@ body {
     left: 0;
     top: 0;
     border-radius: 10px;
+}
+
+.glow-on-hover:hover {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6;
 }
 
 @keyframes glowing {

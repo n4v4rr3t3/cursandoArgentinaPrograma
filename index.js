@@ -26,7 +26,7 @@ document.getElementById("info").addEventListener(
         <br>
         <br>
         `
-        document.body.style.backgroundImage = "url('https://static.vecteezy.com/system/resources/previews/002/375/040/original/modern-white-background-free-vector.jpg')";
+        document.body.style.backgroundImage = "url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg')";
         document.getElementById("nombre").style.color = "black"
     }
 );
